@@ -1,0 +1,84 @@
+{
+    "data" :
+    [
+        {
+            "dbKey" : "",
+            "webhooks" : {
+                "avatar_webhook" : "",
+                "avatar_public_webhook" : "",
+                "user_webhook" : "",
+                "websocket_webhook" : "",
+                "search_avatar_webhook" : "",
+                "apitraceback_webhook" : "",
+                "apirequest_webhook" : "",
+                "registry_webhook" : ""
+            },
+            "loader_version" : "1.0.4",
+            "client_version" : "1.0.4",
+            "middle_ware" : "http",
+            "header_array" : [],
+            "server_config" : {
+                "openapi_url" : "/v3/docs/json",
+                "docs_url" : "/v3/docs",
+                "title" : "Blaze API",
+                "description" :  "",
+                "version" : "1.4.4",
+                "contact" : {
+                    "name" : "system",
+                    "url" : "",
+                    "email" : ""
+                },
+                "openapi_tags" : [
+                    {
+                        "name": "user",
+                        "description": "User interaction endpoints for the client."
+                    },
+                    {
+                        "name": "testing",
+                        "description": "Endpoints meant for testing."
+                    },
+                    {
+                        "name": "base",
+                        "description": "The base endpoints which don't have a specific category."
+                    },
+                    {
+                        "name": "websocket",
+                        "description": "Websocket interactions for the client."
+                    },
+                    {
+                        "name": "tag",
+                        "description": "Tag interactions for discord bot and client."
+                    },
+                    {
+                        "name": "avatar",
+                        "description": "Avatar interactions for the discord bot."
+                    }
+                ]
+            }
+        },
+        {
+            "ascii_art" : [
+                {
+                    "0" : "——————————————————-————————————————————————————",
+                    "1" :  "⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠋⠉⠁⠀⠀⠀⠀⠈⠉⠙⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿",
+                    "2" :  "⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⣿⣿⣿⣿⣿",
+                    "3" :  "⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣦⠀⠀⠀⠈⢻⣿⣿⣿",
+                    "4" :  "⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⢠⣶⣶⣾⣷⣶⣆⠸⣿⣿⡟⠀⠀⠀⠀⠀⠹⣿⣿",
+                    "5" :  "⣿⠃⠀⠀⠀⠀⠀⠀⣠⣾⣷⡈⠻⠿⠟⠻⠿⢿⣷⣤⣤⣄⠀⠀⠀⠀⠀⠀⠘⣿",
+                    "6" :  "⡏⠀⠀⠀⠀⠀⠀⣴⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣦⠀⠀⠀⠀⠀⠀⢹",
+                    "7" :  "⠁⠀⠀⢀⣤⣤⡘⢿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⡇⠀⠀⠀⠀⠀⠈",
+                    "8" :  "⠀⠀⠀⣿⣿⣿⡇⢸⣿⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣉⣉⡁⠀⠀⠀⠀⠀⠀",
+                    "9" :  "⡀⠀⠀⠈⠛⠛⢡⣾⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⡇⠀⠀⠀⠀⠀⢀",
+                    "10" : "⣇⠀⠀⠀⠀⠀⠀⠻⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿⠟⠀⠀⠀⠀⠀⠀⣸",
+                    "11" : "⣿⡄⠀⠀⠀⠀⠀⠀⠙⢿⡿⢁⣴⣶⣦⣴⣶⣾⡿⠛⠛⠋⠀⠀⠀⠀⠀⠀⢠⣿",
+                    "12" : "⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠘⠿⠿⢿⡿⠿⠏⢰⣿⣿⣧⠀⠀⠀⠀⠀⣰⣿⣿",
+                    "13" : "⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⠟⠀⠀⠀⢀⣼⣿⣿⣿",
+                    "14" : "⣿⣿⣿⣿⣿⣶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣶⣿⣿⣿⣿⣿",
+                    "15" : "⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⣄⣀⡀⠀⠀⠀⠀⢀⣀⣠⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿",
+                    "16" : "———————————————————————————————————————————————"
+                }
+            ]
+        }
+    ]
+    
+}
